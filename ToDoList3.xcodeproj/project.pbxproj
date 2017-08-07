@@ -14,6 +14,7 @@
 		AA40BB111F3879DD00316AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA40BB0F1F3879DD00316AD3 /* LaunchScreen.storyboard */; };
 		AA40BB1C1F3879DE00316AD3 /* ToDoList3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA40BB1B1F3879DE00316AD3 /* ToDoList3Tests.swift */; };
 		AA40BB271F3879DE00316AD3 /* ToDoList3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA40BB261F3879DE00316AD3 /* ToDoList3UITests.swift */; };
+		AA40BB351F387A2200316AD3 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA40BB341F387A2200316AD3 /* AddToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AA40BB221F3879DE00316AD3 /* ToDoList3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoList3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA40BB261F3879DE00316AD3 /* ToDoList3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList3UITests.swift; sourceTree = "<group>"; };
 		AA40BB281F3879DE00316AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA40BB341F387A2200316AD3 /* AddToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				AA40BB061F3879DD00316AD3 /* AppDelegate.swift */,
+				AA40BB341F387A2200316AD3 /* AddToDoViewController.swift */,
 				AA40BB081F3879DD00316AD3 /* ViewController.swift */,
 				AA40BB0A1F3879DD00316AD3 /* Main.storyboard */,
 				AA40BB0D1F3879DD00316AD3 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA40BB091F3879DD00316AD3 /* ViewController.swift in Sources */,
+				AA40BB351F387A2200316AD3 /* AddToDoViewController.swift in Sources */,
 				AA40BB071F3879DD00316AD3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
