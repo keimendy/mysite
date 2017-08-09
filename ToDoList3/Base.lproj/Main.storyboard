@@ -21,13 +21,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pny-CZ-ZOr">
-                                <rect key="frame" x="0.0" y="72" width="375" height="595"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pny-CZ-ZOr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MyCell" id="Ioc-GD-qJD">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ioc-GD-qJD" id="5c9-xl-XIE">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Ooa-Pf-6hb" id="lLm-sJ-0RE"/>
+                                    <outlet property="delegate" destination="Ooa-Pf-6hb" id="FJ6-2u-jmB"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Pny-CZ-ZOr" firstAttribute="height" secondItem="O3c-Xl-Nys" secondAttribute="height" id="43v-Pb-q6E"/>
+                            <constraint firstAttribute="trailing" secondItem="Pny-CZ-ZOr" secondAttribute="trailing" id="Iw0-Su-CKH"/>
+                            <constraint firstItem="Uqe-4B-ocL" firstAttribute="top" secondItem="Pny-CZ-ZOr" secondAttribute="bottom" id="lAL-4T-ydc"/>
+                            <constraint firstItem="Pny-CZ-ZOr" firstAttribute="width" secondItem="O3c-Xl-Nys" secondAttribute="width" id="rq0-6o-tSn"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="To do list" id="8UH-7s-r8y">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="fDP-gC-Bhm">

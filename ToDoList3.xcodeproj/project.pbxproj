@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1739AE1F3AC083000497B5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1739AD1F3AC083000497B5 /* CustomTableViewCell.swift */; };
 		AA40BB071F3879DD00316AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA40BB061F3879DD00316AD3 /* AppDelegate.swift */; };
 		AA40BB091F3879DD00316AD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA40BB081F3879DD00316AD3 /* ViewController.swift */; };
 		AA40BB0C1F3879DD00316AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA40BB0A1F3879DD00316AD3 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		AA40BB1C1F3879DE00316AD3 /* ToDoList3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA40BB1B1F3879DE00316AD3 /* ToDoList3Tests.swift */; };
 		AA40BB271F3879DE00316AD3 /* ToDoList3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA40BB261F3879DE00316AD3 /* ToDoList3UITests.swift */; };
 		AA40BB351F387A2200316AD3 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA40BB341F387A2200316AD3 /* AddToDoViewController.swift */; };
+		AA48DBC51F39D44300A3A1F9 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA48DBC31F39D44300A3A1F9 /* CustomTableViewCell.xib */; };
+		AA48DBC91F3AB5B100A3A1F9 /* greencheckmark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA48DBC81F3AB5B100A3A1F9 /* greencheckmark.jpg */; };
+		AA48DBCB1F3AB5C100A3A1F9 /* graycheckmark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA48DBCA1F3AB5C100A3A1F9 /* graycheckmark.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA1739AD1F3AC083000497B5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		AA40BB031F3879DD00316AD3 /* ToDoList3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA40BB061F3879DD00316AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA40BB081F3879DD00316AD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		AA40BB261F3879DE00316AD3 /* ToDoList3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList3UITests.swift; sourceTree = "<group>"; };
 		AA40BB281F3879DE00316AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA40BB341F387A2200316AD3 /* AddToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		AA48DBC41F39D44300A3A1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CustomTableViewCell.xib; sourceTree = "<group>"; };
+		AA48DBC81F3AB5B100A3A1F9 /* greencheckmark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greencheckmark.jpg; sourceTree = "<group>"; };
+		AA48DBCA1F3AB5C100A3A1F9 /* graycheckmark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = graycheckmark.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +112,12 @@
 				AA40BB081F3879DD00316AD3 /* ViewController.swift */,
 				AA40BB0A1F3879DD00316AD3 /* Main.storyboard */,
 				AA40BB0D1F3879DD00316AD3 /* Assets.xcassets */,
+				AA48DBC81F3AB5B100A3A1F9 /* greencheckmark.jpg */,
+				AA48DBCA1F3AB5C100A3A1F9 /* graycheckmark.jpg */,
 				AA40BB0F1F3879DD00316AD3 /* LaunchScreen.storyboard */,
 				AA40BB121F3879DD00316AD3 /* Info.plist */,
+				AA48DBC31F39D44300A3A1F9 /* CustomTableViewCell.xib */,
+				AA1739AD1F3AC083000497B5 /* CustomTableViewCell.swift */,
 			);
 			path = ToDoList3;
 			sourceTree = "<group>";
@@ -236,8 +248,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA40BB111F3879DD00316AD3 /* LaunchScreen.storyboard in Resources */,
+				AA48DBC91F3AB5B100A3A1F9 /* greencheckmark.jpg in Resources */,
 				AA40BB0E1F3879DD00316AD3 /* Assets.xcassets in Resources */,
+				AA48DBC51F39D44300A3A1F9 /* CustomTableViewCell.xib in Resources */,
 				AA40BB0C1F3879DD00316AD3 /* Main.storyboard in Resources */,
+				AA48DBCB1F3AB5C100A3A1F9 /* graycheckmark.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1739AE1F3AC083000497B5 /* CustomTableViewCell.swift in Sources */,
 				AA40BB091F3879DD00316AD3 /* ViewController.swift in Sources */,
 				AA40BB351F387A2200316AD3 /* AddToDoViewController.swift in Sources */,
 				AA40BB071F3879DD00316AD3 /* AppDelegate.swift in Sources */,
@@ -314,6 +330,14 @@
 				AA40BB101F3879DD00316AD3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AA48DBC31F39D44300A3A1F9 /* CustomTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA48DBC41F39D44300A3A1F9 /* Base */,
+			);
+			name = CustomTableViewCell.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -511,6 +535,7 @@
 				AA40BB2D1F3879DE00316AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA40BB2E1F3879DE00316AD3 /* Build configuration list for PBXNativeTarget "ToDoList3Tests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +544,7 @@
 				AA40BB301F3879DE00316AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA40BB311F3879DE00316AD3 /* Build configuration list for PBXNativeTarget "ToDoList3UITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +553,7 @@
 				AA40BB331F3879DE00316AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
